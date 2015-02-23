@@ -27,9 +27,9 @@ size = (800, 600)
 #Game Logistics
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("The Adventures of Third Leg Ricky")
-backgroundImage = pygame.image.load("ThirdLeg.jpg").convert()
+backgroundImage = pygame.image.load("Word.jpg").convert()
 screen.blit(backgroundImage, [0, 0])
-playerImage = pygame.image.load("soccerRicky.png").convert()
+playerImage = pygame.image.load("RickySprite_8.png").convert()
 screen.blit(playerImage, [0, 410])
 pygame.display.flip()
 
